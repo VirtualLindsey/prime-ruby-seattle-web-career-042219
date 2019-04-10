@@ -6,7 +6,7 @@ def prime?(n)
       return false
   
  j = 1
- while (j * j ≤ n)
+ while (j * j <= n)
     i = 6 * j + 1
     if n mod i == 0 or n mod (i + 2) == 0
         return false

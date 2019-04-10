@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(n)
-  (4..n).each do |i|
+  (4..n-1).each do |i|
     puts i
     if (n % i) == 0
       return false

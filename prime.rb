@@ -17,7 +17,7 @@ def prime?(n)
     if n % i == 0 or n % (i + 2) == 0
         return false
     end
-    j ← j + 1
+    j = j + 1
   end
  return true
  

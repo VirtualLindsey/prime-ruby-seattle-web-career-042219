@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(n)
   (4..n).each do |i|
-    if n % i == 0
+    if (n % i) == 0
       return false
     end
   end

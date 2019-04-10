@@ -1,17 +1,18 @@
 # Add  code here!
 def prime?(n)
   if n ≤ 3
-        return n > 1
-     else if n % 2 = 0 or % 3 = 0
+    return n > 1
+  elsif n % 2 = 0 or % 3 = 0
+      return false
+  
+ let j ← 1
+ while j * j ≤ n
+    i = 6 * j + 1
+    if n mod i = 0 or n mod (i + 2) = 0
         return false
-     let j ← 1
-     while j * j ≤ n
-        i = 6 * j + 1
-        if n mod i = 0 or n mod (i + 2) = 0
-            return false
-        i = 6 * j - 1
-        if n mod i = 0 or n mod (i + 2) = 0
-            return false
-        j ← j + 1
-     return true
+    i = 6 * j - 1
+    if n mod i = 0 or n mod (i + 2) = 0
+        return false
+    j ← j + 1
+ return true
 end

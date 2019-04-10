@@ -1,5 +1,5 @@
 # Add  code here!
 def prime?(n)
-  for i 
+  2..n in 
  
 end

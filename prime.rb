@@ -9,12 +9,12 @@ def prime?(n)
  j = 1
  while (j * j <= n)
     i = 6 * j + 1
-    if n mod i == 0 or n mod (i + 2) == 0
+    if n % i == 0 or n % (i + 2) == 0
         return false
     end
     
     i = 6 * j - 1
-    if n mod i == 0 or n mod (i + 2) == 0
+    if n % i == 0 or n % (i + 2) == 0
         return false
     end
     j ← j + 1

@@ -4,6 +4,7 @@ def prime?(n)
     return n > 1
   elsif n % 2 == 0 or % 3 == 0
       return false
+  end
   
  j = 1
  while (j * j <= n)

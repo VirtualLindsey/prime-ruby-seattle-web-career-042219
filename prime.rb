@@ -17,5 +17,7 @@ def prime?(n)
         return false
     end
     j ← j + 1
+  end
  return true
+ 
 end
